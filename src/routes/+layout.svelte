@@ -1,0 +1,16 @@
+<script>
+	import '@fontsource/roboto';
+	import '@fontsource/aldrich';
+	import '../reset.css';
+	import '../app.css';
+	import zarf from '$lib/images/svg/zarf-logo-animated.svg';
+	import Navbar from '$lib/components/Navbar.svelte';
+</script>
+
+<svelte:head>
+	<link rel="icon" type="image/x-icon" href={zarf} />
+	<title>Zarf</title>
+</svelte:head>
+
+<Navbar />
+<slot />
