@@ -48,7 +48,6 @@
 	}
 	.blob {
 		z-index: -1;
-		width: 100%;
 		position: absolute;
 	}
 	.hero {
@@ -56,8 +55,11 @@
 	}
 	@media (max-width: 899px) {
 		.blob{
-			top: 0;
+			top: -40rem;
 
+		}
+		.L-R-Container{
+			flex-direction: column;
 		}
     }
 </style>

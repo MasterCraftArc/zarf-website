@@ -4,7 +4,7 @@
     import Button from './Button.svelte';
 </script>
 
-<section class="Airplane-mode">
+<section class="Created-by">
 
     <div class="text-container">
         <p>
@@ -25,8 +25,6 @@
         font-size: 24px;
     }
     .blob{
-        width: 100%;
-        
         position: absolute;
         z-index: -2;
     }
@@ -39,11 +37,16 @@
         text-align: center;
         gap: 1rem;
     }
-    .Airplane-mode{
+    .Created-by{
         justify-content: center;
         align-items: center;
         display: flex;
-
+        padding-bottom: 10rem;
     }
 
+    @media (max-width: 899px) {
+        .blob{
+            height: 500px;
+        }
+    }
 </style>

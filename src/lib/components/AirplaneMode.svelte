@@ -15,9 +15,11 @@
 
 <style>
     .blob{
-        width: 100%;
+
         position: absolute;
         z-index: -2;
+        min-width: 100%;
+
     }
     .text-container{
         position: relative;
@@ -33,5 +35,11 @@
         display: flex;
         padding-bottom: 12rem;
     }
-    
+
+    @media (max-width: 899px) {
+        .blob{
+            height: 80vh;
+            overflow: hidden;
+        }
+    }
 </style>
