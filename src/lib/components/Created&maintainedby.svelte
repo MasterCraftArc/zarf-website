@@ -25,8 +25,8 @@
         font-size: 24px;
     }
     .blob{
-        width: 700px;
-        height: 500px;
+        width: 100%;
+        
         position: absolute;
         z-index: -2;
     }

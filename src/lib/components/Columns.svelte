@@ -79,5 +79,8 @@
         .columns{
             gap: 5rem;
         }
+        img{
+            width: 450px;
+        }
     }
 </style>

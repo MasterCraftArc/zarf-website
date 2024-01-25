@@ -13,7 +13,7 @@
 					A free open source tool that enables continuous software delivery on disconnected
 					networks.
 				</p>
-				<Button text="button" />
+				<Button text="Contact an Expert" />
 			</div>
 			<img class="blob" src={blob} alt="blob" loading="eager"/>
 		</div>
@@ -54,4 +54,10 @@
 	.hero {
 		width: 100%;
 	}
+	@media (max-width: 899px) {
+		.blob{
+			top: 0;
+
+		}
+    }
 </style>
