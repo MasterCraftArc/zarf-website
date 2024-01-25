@@ -15,7 +15,7 @@
 
 <style>
     .blob{
-
+        overflow: hidden;
         position: absolute;
         z-index: -2;
         min-width: 100%;

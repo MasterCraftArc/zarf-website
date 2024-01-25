@@ -1,11 +1,14 @@
 html {
 	background-color: #0b0e2f;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	overflow-x: hidden;
+	
 }
 
 body {
 	font-family: 'Roboto', sans-serif;
 	overflow-x: hidden;
+
 }
 
 section {

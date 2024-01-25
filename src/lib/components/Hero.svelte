@@ -49,6 +49,7 @@
 	.blob {
 		z-index: -1;
 		position: absolute;
+		overflow: hidden;
 	}
 	.hero {
 		width: 100%;

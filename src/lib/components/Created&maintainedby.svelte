@@ -27,6 +27,7 @@
     .blob{
         position: absolute;
         z-index: -2;
+        overflow: hidden;
     }
     .text-container{
         position: relative;
