@@ -15,7 +15,9 @@
 				</p>
 				<Button text="Contact an Expert" />
 			</div>
+
 			<img class="blob" src={blob} alt="blob" loading="eager"/>
+
 		</div>
 		<div class="right"><img class="hero" src={hero} alt="hero" loading="eager"/></div>
 	</div>
@@ -49,7 +51,7 @@
 	.blob {
 		z-index: -1;
 		position: absolute;
-		overflow: hidden;
+		
 	}
 	.hero {
 		width: 100%;
