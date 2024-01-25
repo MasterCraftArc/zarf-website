@@ -1,0 +1,37 @@
+<script>
+    import maintainedBlob from '../images/svg/maintained-by-blob.svg'
+</script>
+
+<section class="Airplane-mode">
+
+    <div class="text-container">
+        <h1>
+            Airplane Mode for the Cloud
+        </h1>
+        <p>Modern software assumes your systems have access to the internet. This may work for 99% of the world, but certain SECURE systems need to maintain capabilities while being disconnected from the internet. Zarf keeps your software running, no matter your connection status.</p>
+    </div>
+    <img class="blob" src="{maintainedBlob}" alt="blob" loading="lazy">
+</section>
+
+<style>
+    .blob{
+        width: 100%;
+        position: absolute;
+        z-index: -2;
+    }
+    .text-container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .Airplane-mode{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding-bottom: 12rem;
+    }
+    
+</style>

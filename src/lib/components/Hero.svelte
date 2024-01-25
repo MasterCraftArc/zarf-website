@@ -4,7 +4,7 @@
 	import Button from '$lib/components/Button.svelte';
 </script>
 
-<section>
+<section class="Hero">
 	<div class="L-R-Container">
 		<div class="left">
 			<div class="text-container">
@@ -15,9 +15,9 @@
 				</p>
 				<Button text="button" />
 			</div>
-			<img class="blob" src={blob} alt="" />
+			<img class="blob" src={blob} alt="blob" loading="eager"/>
 		</div>
-		<div class="right"><img class="hero" src={hero} alt="" /></div>
+		<div class="right"><img class="hero" src={hero} alt="hero" loading="eager"/></div>
 	</div>
 </section>
 
