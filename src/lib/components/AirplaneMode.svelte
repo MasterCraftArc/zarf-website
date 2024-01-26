@@ -41,5 +41,9 @@
             height: 80vh;
             overflow: hidden;
         }
+        h1{font-size: 48px;}
+        p{
+            font-size: 16px;
+        }
     }
 </style>

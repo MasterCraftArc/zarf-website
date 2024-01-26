@@ -19,7 +19,7 @@
 
 <style>
     .dulogo{
-        width: 400px;
+        width: 300px;
     }
     p{
         font-size: 24px;
