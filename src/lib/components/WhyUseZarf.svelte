@@ -63,6 +63,9 @@
         display: flex;
         gap: 2rem;
     }
+    h1{
+        text-align: center;
+    }
     @media (max-width: 899px) {
         .card-container{
             flex-direction: column;
