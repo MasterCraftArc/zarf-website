@@ -14,21 +14,29 @@
         <p>For enterprise package support information.</p>
         <Button text="Contact an Expert"/>
     </div>
+    <div class="blob-container">
     <img class="blob" src="{maintainedBlob}" alt="blob" loading="lazy">
+</div>
 </section>
 
 <style>
+    .blob-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        z-index: -2;
+        overflow: hidden;
+        width: 100vw;
+    }
+
     .dulogo{
         width: 300px;
     }
     p{
         font-size: 24px;
     }
-    .blob{
-        position: absolute;
-        z-index: -2;
-        overflow: hidden;
-    }
+
     .text-container{
         position: relative;
         display: flex;
@@ -46,7 +54,7 @@
     }
 
     @media (max-width: 899px) {
-        .blob{
+        .blob-container{
             height: 500px;
         }
     }

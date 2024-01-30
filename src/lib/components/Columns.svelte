@@ -80,7 +80,7 @@
             gap: 5rem;
         }
         img{
-            width: 450px;
+            width: 350px;
         }
     }
 </style>

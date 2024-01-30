@@ -10,17 +10,20 @@
         </h1>
         <p>Modern software assumes your systems have access to the internet. This may work for 99% of the world, but certain SECURE systems need to maintain capabilities while being disconnected from the internet. Zarf keeps your software running, no matter your connection status.</p>
     </div>
+    <div class="blob-container">
     <img class="blob" src="{maintainedBlob}" alt="blob" loading="lazy">
+    </div>
 </section>
 
 <style>
-    .blob{
+    .blob-container{
         overflow: hidden;
         position: absolute;
         z-index: -2;
         min-width: 100%;
 
     }
+
     .text-container{
         position: relative;
         display: flex;
@@ -37,7 +40,7 @@
     }
 
     @media (max-width: 899px) {
-        .blob{
+        .blob-container{
             height: 80vh;
             overflow: hidden;
         }
