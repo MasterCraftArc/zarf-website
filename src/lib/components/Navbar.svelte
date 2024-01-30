@@ -18,7 +18,7 @@
 <nav class:scrolled>
 	<img class="logo" src={zarf} alt="zarf" />
 	<div class="links">
-		<a href="https://pepr-docs.netlify.app/v0.22.2/">Docs</a>
+		<a href="https://docs.zarf.dev/docs/zarf-overview" target="_blank">Docs</a>
 		<a href={GITHUB_PROJECT_URL} class="link" target="_blank"
 			><img loading="lazy" class="github" src={github} alt="github_icon" /></a
 		>

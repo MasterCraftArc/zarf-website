@@ -14,7 +14,7 @@
     </div>
     <div class="text-container">
         <slot>
-            <div>
+            <div class="title">
             <h3>{title1}</h3>
             <h3>{title2}</h3>
             </div>
@@ -27,6 +27,12 @@
 </div>
 
 <style>
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
     .content-container{
         padding-left: .5rem;
     }

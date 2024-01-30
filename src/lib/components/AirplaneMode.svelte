@@ -1,5 +1,5 @@
 <script>
-    import maintainedBlob from '../images/svg/maintained-by-blob.svg'
+        import MaintainedByBlob from "./MaintainedByBlob.svelte";
 </script>
 
 <section class="Airplane-mode">
@@ -11,18 +11,21 @@
         <p>Modern software assumes your systems have access to the internet. This may work for 99% of the world, but certain SECURE systems need to maintain capabilities while being disconnected from the internet. Zarf keeps your software running, no matter your connection status.</p>
     </div>
     <div class="blob-container">
-    <img class="blob" src="{maintainedBlob}" alt="blob" loading="lazy">
+    <MaintainedByBlob/>
     </div>
 </section>
 
 <style>
-    .blob-container{
-        overflow: hidden;
+        .blob-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: absolute;
         z-index: -2;
-        min-width: 100%;
-
+        overflow: hidden;
+        width: 100vw;
     }
+
 
     .text-container{
         position: relative;
@@ -37,6 +40,10 @@
         align-items: center;
         display: flex;
         padding-bottom: 12rem;
+    }
+
+    p{
+        max-width: 760px;
     }
 
     @media (max-width: 899px) {

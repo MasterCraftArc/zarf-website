@@ -2,6 +2,7 @@
     import maintainedBlob from '../images/svg/captioned-blob.svg'
     import duLogo from '../images/png/full-du-logo.png'
     import Button from './Button.svelte';
+    import MaintainedByBlob from './MaintainedByBlob.svelte';
 </script>
 
 <section class="Created-by">
@@ -12,10 +13,10 @@
         </p>
         <img src="{duLogo}" alt="logo" class="dulogo">
         <p>For enterprise package support information.</p>
-        <Button text="Contact an Expert"/>
+        <Button text="Contact an Expert" link="https://www.defenseunicorns.com/contactus/"/>
     </div>
     <div class="blob-container">
-    <img class="blob" src="{maintainedBlob}" alt="blob" loading="lazy">
+    <MaintainedByBlob/>
 </div>
 </section>
 

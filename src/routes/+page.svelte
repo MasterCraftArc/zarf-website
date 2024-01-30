@@ -5,6 +5,7 @@
     import Columns from '$lib/components/Columns.svelte'
     import WhyUseZarf from '$lib/components/WhyUseZarf.svelte'
     import Createdmaintainedby from '$lib/components/Created&maintainedby.svelte';
+	import Blob from '$lib/components/Blob.svelte';
 </script>
 
 <Hero />
@@ -13,3 +14,4 @@
 <Columns/>
 <WhyUseZarf/>
 <Createdmaintainedby/>
+
