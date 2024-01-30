@@ -1,11 +1,9 @@
 html {
 	background-color: #0b0e2f;
-	font-family: 'M PLUS Rounded 1c','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
+	font-family: 'M PLUS Rounded 1c', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.blob-container{
+.blob-container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -15,23 +13,21 @@ html {
 }
 
 @media (max-width: 899px) {
-	.blob-container{
-
+	.blob-container {
 		overflow: hidden;
-	}}
+	}
+}
 
 body {
-	font-family: "Roboto", sans-serif;
-
+	font-family: 'Roboto', sans-serif;
 }
 
 section {
 	padding: 4rem 4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
 h1,
@@ -40,21 +36,20 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "M PLUS Rounded 1c", sans-serif;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
 	line-height: 120%;
 	letter-spacing: -0.5px;
 	color: white;
 	font-size: 60px;
 	font-weight: 300;
-
 }
 
-h3{
-  font-size: 24px;
+h3 {
+	font-size: 24px;
 }
 
 p {
-	color: #FFFFFFB2;
+	color: #ffffffb2;
 	line-height: 120%;
 	letter-spacing: 0.17px;
 	font-weight: 300;

@@ -15,7 +15,7 @@
 		}}
 	>
 		<span class="text-hidden">{text}</span>
-		<img src={zarf} alt="zarf-mini" class="image-hidden" loading="lazy"/>
+		<img src={zarf} alt="zarf-mini" class="image-hidden" loading="lazy" />
 	</button>
 </a>
 

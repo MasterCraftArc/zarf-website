@@ -10,29 +10,28 @@
 		<div class="left">
 			<div class="text-container">
 				<div>
-				<h1>DevSecOps</h1>
-				<h1>for Airgap</h1>
+					<h1>DevSecOps</h1>
+					<h1>for Airgap</h1>
 				</div>
 				<p>
 					A free open source tool that enables continuous software delivery on disconnected
 					networks.
 				</p>
-				<Button text="Contact an Expert" link="https://www.defenseunicorns.com/contactus/"/>
+				<Button text="Contact an Expert" link="https://www.defenseunicorns.com/contactus/" />
 			</div>
-
 		</div>
-		<div class="right"><img class="hero" src={hero} alt="hero" loading="eager"/></div>
+		<div class="right"><img class="hero" src={hero} alt="hero" loading="eager" /></div>
 	</div>
 	<div class="blob-container">
-	<Blob/>
-</div>
+		<Blob />
+	</div>
 </section>
 
 <style>
-	h1{
+	h1 {
 		font-size: 96px;
 	}
-	.blob-container{
+	.blob-container {
 		z-index: -1;
 		position: absolute;
 		width: 100vw;
@@ -51,7 +50,6 @@
 		align-items: center;
 		justify-content: center;
 		position: relative;
-
 	}
 	.left,
 	.right {
@@ -71,16 +69,16 @@
 		min-width: 350px;
 	}
 	@media (max-width: 899px) {
-		h1{
+		h1 {
 			font-size: 60px;
 		}
-		.blob-container{
+		.blob-container {
 			top: -42rem;
 			overflow: hidden;
 			left: 0;
 		}
-		.L-R-Container{
+		.L-R-Container {
 			flex-direction: column;
 		}
-    }
+	}
 </style>

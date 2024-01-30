@@ -1,17 +1,16 @@
 <script>
 	import Hero from '$lib/components/Hero.svelte';
-    import UseZarfTo from '$lib/components/UseZarfTo.svelte';
-    import AirplaneMode from '$lib/components/AirplaneMode.svelte';
-    import Columns from '$lib/components/Columns.svelte'
-    import WhyUseZarf from '$lib/components/WhyUseZarf.svelte'
-    import Createdmaintainedby from '$lib/components/Created&maintainedby.svelte';
+	import UseZarfTo from '$lib/components/UseZarfTo.svelte';
+	import AirplaneMode from '$lib/components/AirplaneMode.svelte';
+	import Columns from '$lib/components/Columns.svelte';
+	import WhyUseZarf from '$lib/components/WhyUseZarf.svelte';
+	import Createdmaintainedby from '$lib/components/Created&maintainedby.svelte';
 	import Blob from '$lib/components/Blob.svelte';
 </script>
 
 <Hero />
-<UseZarfTo/>
-<AirplaneMode/>
-<Columns/>
-<WhyUseZarf/>
-<Createdmaintainedby/>
-
+<UseZarfTo />
+<AirplaneMode />
+<Columns />
+<WhyUseZarf />
+<Createdmaintainedby />
