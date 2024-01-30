@@ -30,8 +30,8 @@
 	button {
 		padding: 15px 40px;
 		background: transparent;
-		border: 2px solid white;
-		color: white;
+		border: 2px solid #ffffffb2;
+		color: #ffffffb2;
 		font-family: helvetica;
 		font-size: 16px;
 		background: 0.5s ease;
