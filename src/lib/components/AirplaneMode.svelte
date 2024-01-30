@@ -39,7 +39,7 @@
 		justify-content: center;
 		align-items: center;
 		display: flex;
-		padding-bottom: 12rem;
+		padding: 12rem;
 	}
 
 	p {

@@ -19,13 +19,27 @@
 	<img class="logo" src={zarf} alt="zarf" />
 	<div class="links">
 		<a href="https://docs.zarf.dev/docs/zarf-overview" target="_blank">Docs</a>
+		<a href="https://docs.zarf.dev/examples/" target="_blank">Examples</a>
+		<div class="icon-container">
 		<a href={GITHUB_PROJECT_URL} class="link" target="_blank"
 			><img loading="lazy" class="github" src={github} alt="github_icon" /></a
-		>
+		></div>
+
 	</div>
 </nav>
 
 <style>
+	.icon-container{
+		border-radius: 100%;
+		width: 45px;
+		height: 45px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.icon-container:hover{
+		background-color: rgba(255, 254, 254, 0.2);
+	}
 	.scrolled {
 		backdrop-filter: blur(10px);
 		transition: background-color 0.5s ease-in-out;
