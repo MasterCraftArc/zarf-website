@@ -19,12 +19,23 @@
 		requestAnimationFrame(step);
 	}
 </script>
-
+<section class="blob-section">
 <div class="container">
 	<img bind:this={blobElement} src={blob} alt="blob" loading="lazy" />
 </div>
-
+</section>
 <style>
-
-
+.blob-section{
+	max-width: 1990px;
+	overflow: hidden;
+	position: absolute;
+}
+.container {
+		position: relative;
+		z-index: -1;
+		width: 100%;
+		left: -50rem;
+		top: -15rem;
+		
+	}
 </style>

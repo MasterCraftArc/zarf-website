@@ -22,9 +22,9 @@
 		</div>
 		<div class="right"><img class="hero" src={hero} alt="hero" loading="eager" /></div>
 	</div>
-	<div class="blob-container">
+	<!-- <div class="blob-container">
 		<Blob />
-	</div>
+	</div> -->
 </section>
 
 <style>

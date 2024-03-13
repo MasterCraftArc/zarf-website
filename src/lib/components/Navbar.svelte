@@ -56,11 +56,12 @@
 		justify-content: space-between;
 		align-items: center;
 		width: 100%;
+		max-width: 1990px;
 		height: 4rem;
 		z-index: 1;
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
-		background-color: #0b0e2f;
+		background-color: transparent;
 	}
 
 	.github {
