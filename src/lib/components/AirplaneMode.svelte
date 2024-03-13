@@ -55,7 +55,10 @@
 			font-size: 48px;
 		}
 		p {
-			font-size: 16px;
+			font-size: 20px;
+		}
+		.Airplane-mode{
+			padding: 12rem 0rem;
 		}
 	}
 </style>

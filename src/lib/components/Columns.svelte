@@ -2,9 +2,9 @@
 	import rocket from '../images/png/zarf-rocket.png';
 	import submarine from '../images/png/zarf-sub.png';
 	import nuclear from '../images/png/zarf-nuclear.png';
-	import blob from '../images/svg/hero-blob.svg';
+	$: innerWidth = 0
 </script>
-
+<svelte:window bind:innerWidth/>
 <section class="columns">
 	<div class="L-R-Container">
 		<div class="left">
@@ -22,9 +22,9 @@
 	</div>
 	<div class="L-R-Container">
 		<div class="left">
+			{#if innerWidth && innerWidth > 899}
 			<img src={submarine} alt="submarine" loading="lazy" />
-		</div>
-		<div class="right">
+			{:else}
 			<div class="text-container">
 				<h3>Always Disconnected</h3>
 				<p>
@@ -32,6 +32,20 @@
 					underground, underwater, or on another planet.
 				</p>
 			</div>
+			{/if}
+		</div>
+		<div class="right">
+			{#if innerWidth && innerWidth > 899}
+			<div class="text-container">
+				<h3>Always Disconnected</h3>
+				<p>
+					Other systems are always disconnected due to lack of internet access. Maybe they are
+					underground, underwater, or on another planet.
+				</p>
+			</div>
+			{:else}
+			<img src={submarine} alt="submarine" loading="lazy" />
+			{/if}
 		</div>
 	</div>
 	<div class="L-R-Container">
@@ -62,6 +76,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 2rem;
+		background-color: #0b0e2f;
 	}
 	h3 {
 		font-size: 48px;
@@ -71,6 +86,7 @@
 		width: 100%;
 		align-items: center;
 		justify-content: center;
+		max-width: 1990px;
 	}
 	.left,
 	.right {
