@@ -30,6 +30,7 @@
 	overflow: hidden;
 	position: absolute;
 	min-width: 500px;
+	padding: 0;
 }
 .container {
 		position: relative;
@@ -39,5 +40,12 @@
 		top: -5rem;
 		
 	}
-
+	@media (max-width: 899px) {
+	.blob-section {
+		width: 100vw;
+		left: 0;
+		top: -35rem;
+		
+	}
+}
 </style>
