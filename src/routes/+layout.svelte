@@ -13,6 +13,8 @@
 	<title>Zarf</title>
 </svelte:head>
 
+<main>
 <Navbar />
 <slot />
 <Footer />
+</main>

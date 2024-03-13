@@ -23,3 +23,8 @@
 <div class="container">
 	<img bind:this={blobElement} src={blob} alt="blob" loading="lazy" />
 </div>
+
+<style>
+
+
+</style>

@@ -28,14 +28,16 @@
 </section>
 
 <style>
+
 	h1 {
 		font-size: 96px;
 	}
 	.blob-container {
 		z-index: -1;
 		position: absolute;
-		width: 100vw;
+		width: 100%;
 		left: -55rem;
+		
 	}
 	.text-container {
 		display: flex;

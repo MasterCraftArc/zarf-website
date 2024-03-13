@@ -8,6 +8,7 @@
 	import JoinOurMission from '$lib/components/JoinOurMission.svelte';
 </script>
 
+
 <Hero />
 <UseZarfTo />
 <AirplaneMode />
