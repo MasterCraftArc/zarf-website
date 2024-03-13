@@ -29,7 +29,6 @@
 	max-width: 1990px;
 	overflow: hidden;
 	position: absolute;
-	min-width: 500px;
 	padding: 0;
 }
 .container {
@@ -41,11 +40,8 @@
 		
 	}
 	@media (max-width: 899px) {
-	.blob-section {
-		width: 100vw;
-		left: 0;
-		top: -35rem;
-		
-	}
+		.container{
+			top: -40rem;
+		}
 }
 </style>
