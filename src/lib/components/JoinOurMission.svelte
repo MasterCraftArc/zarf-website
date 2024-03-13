@@ -3,11 +3,15 @@
     import statscard from '$lib/images/png/stats-card.png'
     import statscardsm from '$lib/images/png/stats-card-sm.png'
     import zarf from '../images/svg/favicon.svg'
+    $: innerWidth = 0
 </script>
-
+<svelte:window bind:innerWidth/>
 <section>
-
-    <img src="{statscard}" alt="stats-card" class="card">
+    {#if innerWidth && innerWidth >= 1045} 
+    <img src="{statscard}" alt="stats-card" class="card" loading="lazy">
+    {:else if innerWidth && innerWidth < 1045}
+    <img src="{statscardsm}" alt="stats-card" class="card" loading="lazy">
+    {/if}
     <div class="L-R-container">
         <div class="left">
             <h5>OPEN SOURCE PROJECT</h5>
@@ -16,6 +20,7 @@
             <Button text="VIEW CONTRIBUTOR GUIDE"/>
         </div>
         <div class="right">
+            {#if innerWidth && innerWidth >= 1045} 
             <div class="column1">
                 <div class="text-container">
                     <h1>875</h1>
@@ -31,8 +36,27 @@
                     <h1>65</h1>
                     <h5>Contributors</h5>
                 </div>
+                
                 <img class="zarf" src="{zarf}" alt="">
+                
             </div>
+            {:else}
+            <div class="column1">
+                <div class="text-container">
+                    <h1>875</h1>
+                    <h5>Stars</h5>
+                </div>
+                <div class="text-container">
+                    <h1>65</h1>
+                    <h5>Contributors</h5>
+                </div>
+                <div class="text-container">
+                    <h1>1319</h1>
+                    <h5>Pull Requests</h5>
+                </div>
+                
+            </div>
+            {/if}
         </div>
     </div>
 </section>
@@ -92,4 +116,38 @@
         flex-direction: column;
         gap: 1rem;
     }
+
+    section{
+        padding-bottom: 6rem;
+    }
+
+@media (max-width: 1045px) {
+	.L-R-container{
+        flex-direction: column;
+    
+    }
+    .left{
+        padding-top: 3rem;
+    }
+    .card{
+        max-width: 450px;
+        max-height: 900px;
+    }
+    section{
+        padding: 4rem 0rem;
+        justify-content: flex-start;
+    }
+    .column1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .L-R-container{
+        width: 100%;
+    }
+    .left,.right{
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
 </style>

@@ -22,9 +22,7 @@
 		</div>
 		<div class="right"><img class="hero" src={hero} alt="hero" loading="eager" /></div>
 	</div>
-	<!-- <div class="blob-container">
-		<Blob />
-	</div> -->
+
 </section>
 
 <style>
@@ -32,13 +30,7 @@
 	h1 {
 		font-size: 96px;
 	}
-	.blob-container {
-		z-index: -1;
-		position: absolute;
-		width: 100%;
-		left: -55rem;
-		
-	}
+
 	.text-container {
 		display: flex;
 		align-items: flex-start;
@@ -74,11 +66,7 @@
 		h1 {
 			font-size: 60px;
 		}
-		.blob-container {
-			top: -42rem;
-			overflow: hidden;
-			left: 0;
-		}
+
 		.L-R-Container {
 			flex-direction: column;
 		}
