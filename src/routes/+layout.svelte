@@ -15,6 +15,8 @@
 
 <main>
 <Navbar />
+<div class="content">
 <slot />
 <Footer />
+</div>
 </main>

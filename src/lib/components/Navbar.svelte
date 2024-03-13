@@ -10,6 +10,7 @@
 		if (window.scrollY == 0) {
 			scrolled = false;
 		}
+		console.log("scrolling")
 	}
 </script>
 
@@ -59,6 +60,7 @@
 		z-index: 1;
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
+		background-color: #0b0e2f;
 	}
 
 	.github {

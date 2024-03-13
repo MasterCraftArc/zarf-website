@@ -6,9 +6,9 @@ html {
 	margin-right: auto;
 	
 }
-main{
+.content{
 	position: relative;
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .blob-container {
@@ -28,6 +28,7 @@ main{
 
 body {
 	font-family: 'Roboto', sans-serif;
+
 }
 
 section {
