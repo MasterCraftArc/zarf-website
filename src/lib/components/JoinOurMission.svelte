@@ -97,6 +97,7 @@
         justify-content: center;
         gap: 2rem;
         width: 80%;
+        max-width: 1600px;
     }
     .left,.right{
         width: 50%;
