@@ -21,7 +21,7 @@
 </script>
 <section class="blob-section">
 <div class="container">
-	<img bind:this={blobElement} src={blob} alt="blob" loading="lazy" />
+	<img bind:this={blobElement} src={blob} alt="blob" loading="eager" />
 </div>
 </section>
 <style>
@@ -29,13 +29,15 @@
 	max-width: 1990px;
 	overflow: hidden;
 	position: absolute;
+	min-width: 500px;
 }
 .container {
 		position: relative;
 		z-index: -1;
 		width: 100%;
 		left: -50rem;
-		top: -15rem;
+		top: -5rem;
 		
 	}
+
 </style>
